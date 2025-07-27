@@ -5,4 +5,4 @@ layout: default
 
 # Note 2
 
-Another note goes here.
+After this website is finished, work on my personal website.

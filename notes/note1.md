@@ -5,4 +5,4 @@ layout: default
 
 # Note 1
 
-This is my first note.
+Learn Ruby and add more to this website. Expand on my HTML/CSS skills also.
