@@ -1,4 +1,7 @@
 ---
+title: Home
 ---
 
-# tonic-starter
+# Simply Jekyll
+
+my theme is a clean Jekyll theme for note-taking
