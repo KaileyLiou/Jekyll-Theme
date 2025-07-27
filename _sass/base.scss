@@ -8,9 +8,20 @@ body {
 
 a {
   color: #4d7c0f;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #4d7c0f;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 3rem auto; 
+}
+
+main {
+  padding-top: 2rem;
 }
