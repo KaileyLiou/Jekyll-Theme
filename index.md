@@ -3,6 +3,9 @@ title: Home
 layout: default
 ---
 
-# Simple Jekyll
+# Welcome to My Notes Site
 
-my theme is a clean Jekyll theme for note-taking
+Here are some of my notes:
+
+- [Note 1]({{ '/notes/note1' | relative_url }})
+- [Note 2]({{ '/notes/note2' | relative_url }})

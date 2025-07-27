@@ -5,3 +5,12 @@ body {
   max-width: 70ch;
   color: #3b5544;
 }
+
+a {
+  color: #4d7c0f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
