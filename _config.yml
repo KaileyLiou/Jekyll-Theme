@@ -3,3 +3,5 @@ description: "Jekyll theme website"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
+
+enable_dark_theme: true
