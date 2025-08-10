@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign tag_name = page.url | split: '/' | last | remove: '.html' %}
+<h1>Posts tagged with "{{ tag_name }}"</h1>
+
+<ul>
+  {% for post in site.tags[tag_name] %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<a href="{{ '/tags' | relative_url }}">Back to all tags</a>
