@@ -1,6 +1,9 @@
 ---
 title: First Note
 layout: default
+tags:
+  - learning
+  - ruby
 ---
 
 # Note 1
