@@ -1,3 +1,3 @@
 # To-Do List Website
 
-I learned Ruby for the first time and made this simple website to keep track of notes/reminders.
+This is a simple Jekyll-themed website I made to keep track of notes/reminders. I learned Ruby for the first time.
