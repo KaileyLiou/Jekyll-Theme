@@ -5,4 +5,4 @@ layout: default
 
 # Note 3
 
-Learn how to make an app and use React.js.
+Learn how to make an app and use Xcode
