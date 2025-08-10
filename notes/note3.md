@@ -1,6 +1,11 @@
 ---
 title: Third Note
 layout: default
+tags:
+  - app
+  - development
+  - xcode
+  - learning
 ---
 
 # Note 3

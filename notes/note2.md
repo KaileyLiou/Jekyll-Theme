@@ -1,6 +1,10 @@
 ---
 title: Second Note
 layout: default
+tags:
+  - personal
+  - website
+  - goals
 ---
 
 # Note 2
