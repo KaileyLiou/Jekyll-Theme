@@ -9,5 +9,3 @@ tags:
 # Note 1
 
 Learn Ruby and add more to this website. Expand on my HTML/CSS skills also.
-
-This note has {% wordcount %} words.

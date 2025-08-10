@@ -11,5 +11,3 @@ tags:
 # Note 3
 
 Learn how to make an app and use Xcode
-
-This note has {% wordcount %} words.
