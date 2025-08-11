@@ -1,5 +1,5 @@
 body {
-  background-color: linear-gradient(to bottom, #8ac19e, #cce8db);
+  background-color: #8ac19e;
   font-family: 'Inter', system-ui, sans-serif;
   margin: 3rem auto;
   font-size: 18px;
@@ -22,26 +22,26 @@ a {
   position: relative;
 }
 
-// a:hover {
-//   text-decoration: underline;
+a:hover {
+  text-decoration: underline;
+}
+
+// a::after {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   bottom: -2px;
+//   width: 100%;
+//   height: 2px;
+//   background-color: #3a7a27;
+//   transition: transform 0.3s ease;
+//   transform: scaleX(0);
+//   transform-origin: left;
 // }
 
-a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: #3a7a27;
-  transition: transform 0.3s ease;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-a:hover::after {
-  transform: scaleX(1);
-}
+// a:hover::after {
+//   transform: scaleX(1);
+// }
 
 main {
   padding-top: 2rem;
