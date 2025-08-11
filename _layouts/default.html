@@ -32,6 +32,11 @@
       </p>
     {% endif %}
 
+    {% assign word_count = content | number_of_words %}
+    <p style="color: #8a9e93; font-size: 0.85em;">
+      ~{{ word_count }} words
+    </p>
+
   <a href="{{ '/' | relative_url }}" style="
     position: fixed;
     top: 30px;
