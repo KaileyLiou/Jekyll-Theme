@@ -26,6 +26,12 @@
       </p>
     {% endif %}
 
+    {% if page.last_modified_at %}
+      <p style="color: #8a9e93; font-size: 0.85em;">
+        <strong>Last updated:</strong> {{ page.last_modified_at | date: "%B %e, %Y" }}
+      </p>
+    {% endif %}
+
   <a href="{{ '/' | relative_url }}" style="
     position: fixed;
     top: 30px;
