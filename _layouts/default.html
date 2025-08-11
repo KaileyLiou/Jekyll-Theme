@@ -19,7 +19,7 @@
     {% endif %}
 
     {% if page.last_modified_at %}
-      <p style="color: #6b8b7d; font-size: 0.85em;">
+      <p style="color: #8a9e93; font-size: 0.85em;">
         <strong>Last updated:</strong> {{ page.last_modified_at | date: "%B %e, %Y" }}
       </p>
     {% endif %}
@@ -27,7 +27,7 @@
     {% if page.tags %}
       <p><strong>Tags:</strong>
         {% for tag in page.tags %}
-          <span style="background:#6b8b7d; padding:2px 6px; margin-right:4px; border-radius:4px;">{{ tag }}</span>
+          <span style="background:#dbf7e5; padding:2px 6px; margin-right:4px; border-radius:4px;">{{ tag }}</span>
         {% endfor %}
       </p>
     {% endif %}
