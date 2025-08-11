@@ -20,25 +20,13 @@ a {
   text-decoration-style: wavy;
   text-decoration-color: #4d7c0f;
   position: relative;
+  transition: transform 0.3s ease, text-decoration 0.3s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  transform: scale(1.5) ease;
+  transform: scale(1.5);
 }
-
-// a::after {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -2px;
-//   width: 100%;
-//   height: 2px;
-//   background-color: #3a7a27;
-//   transition: transform 0.3s ease;
-//   transform: scaleX(0);
-//   transform-origin: left;
-// }
 
 main {
   padding-top: 2rem;
