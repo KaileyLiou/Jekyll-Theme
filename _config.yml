@@ -2,6 +2,9 @@ title: tonic-starter
 description: "Jekyll theme website"
 encoding: utf-8
 
+url: "https://kaileyliou.github.io"
+baseurl: "/Jekyll-Theme"   
+
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
 
 enable_dark_theme: true
