@@ -12,6 +12,12 @@
   <body>
     {{ content }}
 
+    {% if page.date %}
+      <p style="color: #6b8b7d; font-size: 0.9em; margin-top: 1rem;">
+        <strong>Added:</strong> {{ page.date | date: "%B %e, %Y" }}
+      </p>
+    {% endif %}
+
     {% if page.tags %}
       <p><strong>Tags:</strong>
         {% for tag in page.tags %}
