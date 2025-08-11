@@ -32,18 +32,13 @@
       </p>
     {% endif %} -->
 
-{% if page.tags %}
-  <p><strong>Tags:</strong>
-    <!-- {% for tag in page.tags %}
-      <a class="tag" href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}" style="background:#dbf7e5; padding:2px 6px; margin-right:4px; border-radius:4px; text-decoration: none; color: #2b4735; font-size: 0.85em;">
+    {% if page.tags %}
+      <p><strong>Tags:</strong>
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" style="background:#dbf7e5; padding:2px 6px; margin-right:4px; border-radius:4px; text-decoration:none; color: inherit;">
         {{ tag }}
       </a>
-    {% endfor %} -->
-    {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" style="background:#dbf7e5; padding:2px 6px; margin-right:4px; border-radius:4px; text-decoration:none; color: inherit;">
-      {{ tag }}
-    </a>
-  {% endfor %}
+    {% endfor %}
 
   </p>
 {% endif %}
@@ -71,7 +66,6 @@
   " title="Home">
     🏠
   </a>
-
-
+  
   </body>
 </html>
