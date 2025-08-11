@@ -1,5 +1,6 @@
 ---
 title: Second Note
+date: 2025-08-05
 layout: default
 tags:
   - personal
